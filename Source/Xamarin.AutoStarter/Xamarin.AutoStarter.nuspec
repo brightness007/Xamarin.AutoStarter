@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Xamarin.AutoStarter</id>
+    <version>1.0.8</version>
+    <title>$title$</title>
+    <authors>AutoStarter Authors, Peng ZHANG</authors>
+    <owners>$author$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+	<projectUrl>https://github.com/brightness007/Xamarin.AutoStarter</projectUrl>
+    <description>Xamarin.Android bindings for the AutoStarter Java library.</description>
+    <releaseNotes>Bindings to AutoStarter 1.0.8</releaseNotes>
+    <tags>AutoStarter Xamarin Android Bindings</tags>
+    <dependencies>
+      <group targetFramework="MonoAndroid9.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Xamarin.AutoStarter.dll" target="lib\MonoAndroid9\Xamarin.AutoStarter.dll" />
+  </files>
+</package>
